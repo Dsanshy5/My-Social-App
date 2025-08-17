@@ -1,0 +1,12 @@
+[
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a1" }, "name": "Priya Sharma", "email": "priya@test.com", "password": "password123", "dateOfBirth": { "$date": "2000-05-15T00:00:00.000Z" }, "gender": "Female", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a2" }, "name": "Rohan Gupta", "email": "rohan@test.com", "password": "password123", "dateOfBirth": { "$date": "2001-02-20T00:00:00.000Z" }, "gender": "Male", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a3" }, "name": "Anjali Verma", "email": "anjali@test.com", "password": "password123", "dateOfBirth": { "$date": "1999-11-10T00:00:00.000Z" }, "gender": "Female", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a4" }, "name": "Vikram Singh", "email": "vikram@test.com", "password": "password123", "dateOfBirth": { "$date": "2002-08-05T00:00:00.000Z" }, "gender": "Male", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a5" }, "name": "Sneha Reddy", "email": "sneha@test.com", "password": "password123", "dateOfBirth": { "$date": "2000-09-01T00:00:00.000Z" }, "gender": "Female", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a6" }, "name": "Arjun Kumar", "email": "arjun@test.com", "password": "password123", "dateOfBirth": { "$date": "1994-03-25T00:00:00.000Z" }, "gender": "Male", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a7" }, "name": "Meera Desai", "email": "meera@test.com", "password": "password123", "dateOfBirth": { "$date": "1992-07-12T00:00:00.000Z" }, "gender": "Female", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a8" }, "name": "Karan Malhotra", "email": "karan@test.com", "password": "password123", "dateOfBirth": { "$date": "1995-01-30T00:00:00.000Z" }, "gender": "Male", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7a9" }, "name": "Fatima Khan", "email": "fatima@test.com", "password": "password123", "dateOfBirth": { "$date": "1993-06-18T00:00:00.000Z" }, "gender": "Female", "isAdmin": false },
+  { "_id": { "$oid": "66bce0a1c1a2b3c4d5e6f7aa" }, "name": "Siddharth Rao", "email": "sid@test.com", "password": "password123", "dateOfBirth": { "$date": "1994-10-22T00:00:00.000Z" }, "gender": "Male", "isAdmin": false }
+]

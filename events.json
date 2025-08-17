@@ -1,0 +1,125 @@
+[
+  {
+    "title": "24-Hour Short Film Contest",
+    "description": "Unleash your inner filmmaker! Get a theme, a prop, and a line of dialogue, then create a short film in just 24 hours. Grand screening and awards ceremony on the final day.",
+    "eventType": "Creative",
+    "location": "Indiranagar, Bangalore",
+    "eventDate": { "$date": "2025-10-18T10:00:00.000Z" },
+    "registrationDeadline": { "$date": "2025-10-15T23:59:59.000Z" },
+    "price": 800,
+    "teamSize": 3,
+    "imageUrls": [
+      "https://placehold.co/800x400/8e44ad/ffffff?text=Film+Contest",
+      "https://placehold.co/800x400/9b59b6/ffffff?text=Lights,+Camera,+Action!"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  },
+  {
+    "title": "Trek to Kalsubai Peak",
+    "description": "Conquer the highest peak in Maharashtra! A challenging and rewarding overnight trek to Kalsubai. Includes transportation from Pune, expert guides, and camping under the stars.",
+    "eventType": "Outdoor",
+    "location": "Kalsubai, near Pune",
+    "eventDate": { "$date": "2025-11-08T05:00:00.000Z" },
+    "registrationDeadline": { "$date": "2025-11-01T23:59:59.000Z" },
+    "price": 2500,
+    "teamSize": 8,
+    "imageUrls": [
+      "https://placehold.co/800x400/27ae60/ffffff?text=Kalsubai+Trek",
+      "https://placehold.co/800x400/2ecc71/ffffff?text=Mountain+Adventure"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  },
+  {
+    "title": "The Great Mumbai Treasure Hunt",
+    "description": "Explore the hidden gems of Mumbai in this city-wide treasure hunt. Solve cryptic clues, complete fun challenges, and race against other teams to find the ultimate prize. Starts at Gateway of India.",
+    "eventType": "Social",
+    "location": "Fort, Mumbai",
+    "eventDate": { "$date": "2025-11-22T09:30:00.000Z" },
+    "registrationDeadline": { "$date": "2025-11-18T23:59:59.000Z" },
+    "price": 600,
+    "teamSize": 4,
+    "imageUrls": [
+      "https://placehold.co/800x400/f39c12/ffffff?text=Treasure+Hunt",
+      "https://placehold.co/800x400/e67e22/ffffff?text=Explore+Mumbai"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  },
+  {
+    "title": "Bangalore Board Game Marathon",
+    "description": "A full day dedicated to board games! From Catan to Gloomhaven, we have a massive library for you to explore. Come solo or with friends, learn new games, and compete in mini-tournaments.",
+    "eventType": "Social",
+    "location": "Koramangala, Bangalore",
+    "eventDate": { "$date": "2025-09-28T11:00:00.000Z" },
+    "registrationDeadline": { "$date": "2025-09-26T23:59:59.000Z" },
+    "price": 450,
+    "teamSize": 4,
+    "imageUrls": [
+      "https://placehold.co/800x400/34495e/ffffff?text=Board+Games"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  },
+  {
+    "title": "Pune Startup Pitch Night",
+    "description": "Have a groundbreaking idea? Pitch it to a panel of investors and entrepreneurs. A great opportunity for networking, feedback, and finding your next co-founder. Limited spots available.",
+    "eventType": "Creative",
+    "location": "Hinjewadi, Pune",
+    "eventDate": { "$date": "2025-10-10T18:00:00.000Z" },
+    "registrationDeadline": { "$date": "2025-10-05T23:59:59.000Z" },
+    "price": 300,
+    "teamSize": 2,
+    "imageUrls": [
+      "https://placehold.co/800x400/16a085/ffffff?text=Startup+Pitch"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  },
+  {
+    "title": "Mumbai Coastal Cycling",
+    "description": "Join us for a refreshing early morning cycling tour along Mumbai's stunning coastline, from Marine Drive to Bandra Fort. Cycle rental included. A perfect way to start your Sunday.",
+    "eventType": "Outdoor",
+    "location": "Marine Drive, Mumbai",
+    "eventDate": { "$date": "2025-12-07T06:30:00.000Z" },
+    "registrationDeadline": { "$date": "2025-12-04T23:59:59.000Z" },
+    "price": 900,
+    "teamSize": 10,
+    "imageUrls": [
+      "https://placehold.co/800x400/2980b9/ffffff?text=Coastal+Cycling"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  },
+  {
+    "title": "Pottery Workshop for Beginners",
+    "description": "Get your hands dirty and learn the basics of pottery! In this relaxing workshop, you'll learn to shape clay on the wheel and create your own unique piece to take home.",
+    "eventType": "Creative",
+    "location": "Jayanagar, Bangalore",
+    "eventDate": { "$date": "2025-11-16T14:00:00.000Z" },
+    "registrationDeadline": { "$date": "2025-11-12T23:59:59.000Z" },
+    "price": 1500,
+    "teamSize": 1,
+    "imageUrls": [
+      "https://placehold.co/800x400/c0392b/ffffff?text=Pottery+Workshop"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  },
+  {
+    "title": "Corporate Futsal Tournament",
+    "description": "Assemble your corporate team and compete for the annual Futsal Cup! A day of friendly competition, networking, and fun. Trophies and exciting prizes for the winners.",
+    "eventType": "Sports",
+    "location": "Viman Nagar, Pune",
+    "eventDate": { "$date": "2025-12-14T09:00:00.000Z" },
+    "registrationDeadline": { "$date": "2025-12-08T23:59:59.000Z" },
+    "price": 5000,
+    "teamSize": 7,
+    "imageUrls": [
+      "https://placehold.co/800x400/d35400/ffffff?text=Futsal+Tournament"
+    ],
+    "registeredUsers": [],
+    "teams": []
+  }
+]

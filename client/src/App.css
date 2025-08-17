@@ -1,0 +1,6 @@
+.app-container {
+  /* We apply the background color and text color here to override defaults */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh; /* Ensure it covers the full screen height */
+}
