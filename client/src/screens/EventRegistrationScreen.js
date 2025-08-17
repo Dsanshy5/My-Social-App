@@ -23,7 +23,7 @@ function EventRegistrationScreen() {
     useEffect(() => {
         async function fetchEventDetails() {
             try {
-                const { data } = await axios.get(`/api/events/geteventbyid/${eventId}`);
+                const { data } = await axios.get(`https://socially-backend-3btp.onrender.com/api/events/geteventbyid/${eventId}`);
                 setEvent(data);
             } catch (error) {
                 console.error(error);
@@ -44,7 +44,7 @@ function EventRegistrationScreen() {
         const bookingDetails = { eventId, userId: user._id, registrationType: 'SOLO' };
         try {
             setLoading(true);
-            const result = await axios.post('/api/bookings/book-event', bookingDetails);
+            const result = await axios.post('https://socially-backend-3btp.onrender.com/api/bookings/book-event', bookingDetails);
             setLoading(false);
             setSuccess(result.data.message);
             const newBookingId = result.data.booking._id;
@@ -86,7 +86,7 @@ function EventRegistrationScreen() {
 
         try {
             setLoading(true);
-            const result = await axios.post('/api/teams/create-and-register', teamData);
+            const result = await axios.post('https://socially-backend-3btp.onrender.com/api/teams/create-and-register', teamData);
             setLoading(false);
             setSuccess(result.data.message);
 

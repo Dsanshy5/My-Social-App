@@ -47,7 +47,7 @@ function AddEvent() {
         try {
             // --- THIS IS THE CORRECTED LINE ---
             // The "result =" part has been removed as it was unused.
-            await axios.post('/api/events/addevent', eventData);
+            await axios.post('https://socially-backend-3btp.onrender.com/api/events/addevent', eventData);
             setSuccess('Event added successfully!');
             setFormData({
                 title: '', description: '', eventType: 'Social', location: '',

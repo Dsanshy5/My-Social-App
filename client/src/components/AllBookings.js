@@ -7,7 +7,7 @@ function AllBookings() {
   useEffect(() => {
     async function fetchBookings() {
       try {
-        const response = await axios.get("/api/bookings/getallbookings");
+        const response = await axios.get("https://socially-backend-3btp.onrender.com/api/bookings/getallbookings");
         setBookings(response.data);
       } catch (error) {
         console.error("Failed to fetch bookings:", error);

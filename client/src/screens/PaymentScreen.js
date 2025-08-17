@@ -19,7 +19,7 @@ function PaymentScreen() {
         async function fetchBookingDetails() {
             try {
                 setLoading(true);
-                const { data } = await axios.get(`/api/bookings/getbookingbyid/${bookingId}`);
+                const { data } = await axios.get(`https://socially-backend-3btp.onrender.com/api/bookings/getbookingbyid/${bookingId}`);
                 setBooking(data);
             } catch (err) {
                 console.error(err);
@@ -35,7 +35,7 @@ function PaymentScreen() {
         try {
             setLoading(true);
             const paymentDetails = { bookingId };
-            const result = await axios.post('/api/bookings/confirm-payment', paymentDetails);
+            const result = await axios.post('https://socially-backend-3btp.onrender.com/api/bookings/confirm-payment', paymentDetails);
             
             setLoading(false);
             setSuccess(result.data.message);

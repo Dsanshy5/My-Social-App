@@ -12,7 +12,7 @@ function AllBookingsList() {
         async function fetchAllBookings() {
             try {
                 setLoading(true);
-                const { data } = await axios.get('/api/bookings/getallbookings');
+                const { data } = await axios.get('https://socially-backend-3btp.onrender.com/api/bookings/getallbookings');
                 setBookings(data);
             } catch (err) {
                 console.error(err);

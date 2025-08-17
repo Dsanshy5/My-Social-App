@@ -19,7 +19,7 @@ function AddOrRemoveShows() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("/api/show/addshow", showData);
+      await axios.post("https://socially-backend-3btp.onrender.com/api/show/addshow", showData);
       alert("Show added successfully!");
     } catch (error) {
       console.error("Failed to add show:", error);

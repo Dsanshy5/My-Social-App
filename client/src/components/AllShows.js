@@ -7,7 +7,7 @@ function AllShows() {
   useEffect(() => {
     async function fetchShows() {
       try {
-        const response = await axios.get("/api/show/getallshows");
+        const response = await axios.get("https://socially-backend-3btp.onrender.com/api/show/getallshows");
         setShows(response.data);
       } catch (error) {
         console.error("Failed to fetch shows:", error);

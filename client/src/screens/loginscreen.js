@@ -63,7 +63,7 @@ function LoginScreen({ setUser }) {
 
         // The API call now uses a relative path, which will be handled by the proxy.
         const result = await axios.post(
-          "/api/users/login", // <-- CORRECTED LINE
+          "https://socially-backend-3btp.onrender.com/api/users/login", // <-- CORRECTED LINE
           formData
         );
 

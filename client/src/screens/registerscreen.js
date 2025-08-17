@@ -45,7 +45,7 @@ function Registerscreen() {
         try {
             setLoading(true);
             const { confirmPassword, ...postData } = formData;
-            await axios.post("/api/users/register", postData);
+            await axios.post("https://socially-backend-3btp.onrender.com/api/users/register", postData);
             
             setLoading(false);
             setSuccess(true);

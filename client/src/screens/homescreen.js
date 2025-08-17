@@ -16,7 +16,7 @@ function Homescreen() {
     async function fetchEvents() {
       try {
         setLoading(true);
-        const { data } = await axios.get("/api/events/getallevents");
+        const { data } = await axios.get("https://socially-backend-3btp.onrender.com/api/events/getallevents");
         setEvents(data);
       } catch (err) {
         console.error("API Error:", err);

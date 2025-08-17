@@ -7,7 +7,7 @@ function AllUsers() {
   useEffect(() => {
     async function fetchUsers() {
       try {
-        const response = await axios.get("/api/users/getallusers");
+        const response = await axios.get("https://socially-backend-3btp.onrender.com/api/users/getallusers");
         setUsers(response.data);
       } catch (error) {
         console.error("Failed to fetch users:", error);

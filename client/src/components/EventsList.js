@@ -11,7 +11,7 @@ function EventsList() {
     useEffect(() => {
         async function fetchEvents() {
             try {
-                const { data } = await axios.get('/api/events/getallevents');
+                const { data } = await axios.get('https://socially-backend-3btp.onrender.com/api/events/getallevents');
                 setEvents(data);
             } catch (err) {
                 console.error(err);

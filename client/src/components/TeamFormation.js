@@ -15,7 +15,7 @@ function TeamFormation() {
         async function fetchEvents() {
             try {
                 setLoading(true);
-                const { data } = await axios.get('/api/events/getallevents');
+                const { data } = await axios.get('https://socially-backend-3btp.onrender.com/api/events/getallevents');
                 setEvents(data);
             } catch (err) {
                 console.error(err);
@@ -34,7 +34,7 @@ function TeamFormation() {
         setSuccess(null);
         try {
             // Call the team formation endpoint
-            const result = await axios.post(`/api/teams/form-teams/${eventId}`);
+            const result = await axios.post(`https://socially-backend-3btp.onrender.com/api/teams/form-teams/${eventId}`);
             setSuccess(result.data.message);
         } catch (err) {
             console.error(err);
